@@ -1,0 +1,50 @@
+.mg20 {
+  margin: 20px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  margin: auto;
+}
+
+.btn-upload {
+  position: absolute !important;
+  right: 10px;
+}
+
+.file-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: middle;
+}
+
+.list-group {
+  padding: 0;
+  margin: 0;
+}
+
+.list-header {
+  margin-top: 10px !important;
+}
+
+.upload-message {
+  font-weight: bold;
+  color: #63A84E;
+  margin-top: 20px !important;
+}
+
+.upload-message.error{
+  color: #DA4148;
+}
+
+.btn-choose {
+  margin-right: 10px !important;
+}
